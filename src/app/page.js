@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from "react";
-import TodoItem from './components/TodoItem';
-import TodoForm from './components/TodoForm';
+import TodoItem from './Components/TodoItem';
+import TodoForm from './Components/TodoForm';
 
 export default function Home() {
   const [todos, setTodos] = useState([]);
