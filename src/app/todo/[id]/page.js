@@ -28,7 +28,7 @@ const TodoDetail = () => {
   }
 
   return (
-    <div className="w-3/6 mx-auto p-4 mt-10 bg-purple-800">
+    <div className="w-full mx-auto m-4 p-4 mt-10 bg-purple-800 sm:w-3/4 md:w-2/3 lg:w-3/6">
       <h1 className="text-2xl font-bold mb-4 text-white text-center">Todo Detail</h1>
       <div className="bg-white p-4 rounded-lg shadow-md">
         <h2 className="text-xl font-semibold mb-2 ">Todo Title: <b>{todo.title}</b></h2>
